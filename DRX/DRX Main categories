@@ -1,0 +1,54 @@
+<section class="s_three_columns bg-white drx_maincate" data-name="Columns">
+    <div class="container">
+        <div class="row d-flex align-items-stretch">
+            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white">
+                    <div class="card-body">
+                        <div class="s_btn drx_btn" data-name="Button">
+                            <a href="#" class="btn btn-primary btn-sm drx_btn_q">
+                                <img src="/web/image/1076/Icon%20metro-location%402x.png" class="img img-fluid" />
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white">
+                    <div class="card-body">
+                        <div class="s_btn drx_btn" data-name="Button">
+                            <a href="#" class="btn btn-primary btn-sm drx_btn_q">
+                                <img src="/web/image/1076/Icon%20metro-location%402x.png" class="img img-fluid" />
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white">
+                    <div class="card-body">
+                        <div class="s_btn drx_btn" data-name="Button">
+                            <a href="#" class="btn btn-primary btn-sm drx_btn_q">
+                                <img src="/web/image/1076/Icon%20metro-location%402x.png" class="img img-fluid" />
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white">
+                    <div class="card-body">
+                        <div class="s_btn drx_btn" data-name="Button">
+                            <a href="#" class="btn btn-primary btn-sm drx_btn_q">
+                                <img src="/web/image/1076/Icon%20metro-location%402x.png" class="img img-fluid" />
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

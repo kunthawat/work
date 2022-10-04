@@ -1,0 +1,116 @@
+//Main Logo
+.drx_logos .card {
+   border: none;
+}
+
+.drx_logos .card-body {
+   padding-top: 0.1em;
+   padding-bottom: 0.1em;
+   padding-left: 0.3em;
+   padding-right: 0.3em;
+   box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.2);
+   -webkit-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.2);
+   -moz-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.2);
+}
+
+//Main Slider
+.drx_slider .carousel-item.oe_img_bg.oe_custom_bg {
+    padding: 60px;
+}
+.drx_slider .carousel-indicators li {
+    border-radius: 100px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    height: 0.75em !important;
+    background-color: #fff !important;
+    opacity: 0.7 !important;
+}
+
+.drx_slider .carousel-indicators li.active {
+    background-color: #FF6400 !important;
+    opacity: 1 !important;
+}
+
+
+//Main categories
+.drx_maincate .card {
+    border: none;
+}
+
+.drx_btn_q {
+    width: 100%;
+    background-color: white !important;
+    border-color: #EDF5FF !important;
+    color: black !important;
+}
+
+.drx_btn_q img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+.drx_btn_q:hover {
+    background-color: #EDF5FF !important;
+    border-color: #EDF5FF !important;
+}
+.drx_maincate, .drx_maincate .col-lg-3 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.drx_maincate .card-body  {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+// Footer
+#footer {
+    background-color: #035693;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#belowfooter {
+    background-color: #FF6400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+}
+
+#uppeerfooter h5 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#uppeerfooter #connect .addresscompany {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+#address {
+    display: flex;
+}
+
+
+#address .img.img-fluid {
+    width: 10px;
+}
+
+#address .addressicon {
+    width: 30px;
+}
+
+.o_footer_copyright {
+    display: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}

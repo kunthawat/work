@@ -1,0 +1,67 @@
+<section class="drx_main_slider">
+    <div id="myCarousel1662620590733" class="s_carousel carousel drx_slider slide s_carousel_default container"
+        data-interval="10000" data-name="Carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel1662620590733" data-slide-to="0" class="active" />
+            <li data-target="#myCarousel1662620590733" data-slide-to="1" />
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item oe_img_bg oe_custom_bg pt104 pb96 active"
+                style="background-image: url(&quot;/web/image/1092/pexels-ilargian-faus-1629781.png&quot;);"
+                data-name="Slide">
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-7">
+                            <div class="s_title pb8" data-name="Title">
+                                <h2 class="s_title_default">
+                                    <font style="font-size: 62px;">Summer&amp;nbsp;</font>
+                                    <img class="img-fluid o_we_custom_image" src="/web/image/1094/Group%2017%402x.png"
+                                        data-original-title="" title="" aria-describedby="tooltip975667" />
+                                </h2>
+                            </div>
+                            <h2 class="s_title_default">
+                                <font style="font-size: 62px;">Pet's Deal</font>
+                            </h2>
+                            <h2 class="s_title_default">
+                                <span style="font-size: 62px;">Up to 70%</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item oe_img_bg oe_custom_bg pt104 pb96"
+                style="background-image: url(&quot;/web/image/1092/pexels-ilargian-faus-1629781.png&quot;);"
+                data-name="Slide">
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-7">
+                            <div class="s_title pb8" data-name="Title">
+                                <h2 class="s_title_default">
+                                    <font style="font-size: 62px;">Summer&amp;nbsp;</font>
+                                    <img class="img-fluid o_we_custom_image" src="/web/image/1094/Group%2017%402x.png"
+                                        data-original-title="" title="" aria-describedby="tooltip975667" />
+                                </h2>
+                            </div>
+                            <h2 class="s_title_default">
+                                <font style="font-size: 62px;">Pet's Deal</font>
+                            </h2>
+                            <h2 class="s_title_default">
+                                <span style="font-size: 62px;">Up to 70%</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-control-prev" data-target="#myCarousel1662620590733" data-slide="prev" role="img"
+            aria-label="Previous" title="Previous">
+            <span class="carousel-control-prev-icon" />
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </div>
+        <div class="carousel-control-next" data-target="#myCarousel1662620590733" data-slide="next" role="img"
+            aria-label="Next" title="Next">
+            <span class="carousel-control-next-icon" />
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </div>
+    </div>
+</section>
