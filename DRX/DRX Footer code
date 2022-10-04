@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<data inherit_id="website.layout" name="Footer">
+    <xpath expr="//div[@id='footer']" position="replace">
+        <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+            <section class="s_text_block pt16 pb8">
+                <div class="container">
+                    <div class="row" id="uppeerfooter">
+
+
+                        <div class="col-lg-4" id="helpcenter">
+                            <h5>ศูนย์ช่วยเหลือ</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="/howtobuy">วิธีการสั่งซื้อ</a></li>
+                                <li><a href="/seller/signup">สมัครเป็นผู้ขาย</a></li>
+                                <li><a href="/shipping">การส่งสินค้า</a></li>
+                                <li><a href="/return-policy">การคืนสินค้า</a></li>
+                                <li><a href="/contactus">ติดต่อเรา</a></li>
+
+                            </ul>
+                        </div>
+
+
+
+                        <div class="col-lg-4" id="aboutus">
+                            <h5>เกี่ยวกับเรา</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="/aboutus">เกี่ยวกับ DRX</a></li>
+                                <li><a href="/best-sellers">สินค้ายอดนิยม</a></li>
+                                <li><a href="/promotions">โปรโมชั่น</a></li>
+                                <li><a href="/term-and-condition">ข้อตกลงและเงื่อนไข</a></li>
+                                <li><a href="/privacy-policy">นโยบายความเป็นส่วนตัว</a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4" id="connect">
+                            <div>
+                                <h5>ติดตามเรา</h5>
+                                <a href="/"><img src="/web/image/1074/Icon%20open-account-login%402x.png"
+                                        class="img img-fluid" /></a>
+                                <a href="/"><img src="/web/image/1074/Icon%20open-account-login%402x.png"
+                                        class="img img-fluid" /></a>
+                                <a href="/"><img src="/web/image/1074/Icon%20open-account-login%402x.png"
+                                        class="img img-fluid" /></a>
+
+                                <p>
+                                    <a t-if="website.social_facebook" t-att-href="website.social_facebook"
+                                        class="btn btn-sm btn-link"><i class="fa fa-2x fa-facebook-square" /></a>
+                                    <a t-if="website.social_twitter" t-att-href="website.social_twitter"
+                                        class="btn btn-sm btn-link"><i class="fa fa-2x fa-twitter" /></a>
+                                    <a t-if="website.social_linkedin" t-att-href="website.social_linkedin"
+                                        class="btn btn-sm btn-link"><i class="fa fa-2x fa-linkedin" /></a>
+                                    <a t-if="website.social_youtube" t-att-href="website.social_youtube"
+                                        class="btn btn-sm btn-link"><i class="fa fa-2x fa-youtube-play" /></a>
+                                    <a t-if="website.social_github" t-att-href="website.social_github"
+                                        class="btn btn-sm btn-link"><i class="fa fa-2x fa-github" /></a>
+                                    <a t-if="website.social_instagram" t-att-href="website.social_instagram"
+                                        class="btn btn-sm btn-link"><i class="fa fa-2x fa-instagram" /></a>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="addresscompany">บริษัท ดีอาร์เอ๊กซ์ คอร์ปอเรชั่น จำกัด</h5>
+                                <div id="address">
+                                    <div class="addressicon">
+                                        <img src="/web/image/1076/Icon%20metro-location%402x.png"
+                                            class="img img-fluid" />
+                                    </div>
+                                    <div class="addresstext">
+                                        1 ซอยโชคชัย 4 ซอย 69
+                                        ถนนโชคชัย 4 แขวงลาดพร้าว
+                                        10230 - เขตลาดพร้าว
+                                        กรุงเทพมหานคร
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-phone" /> <span class="o_force_ltr"
+                                            t-field="res_company.phone" /></li>
+                                    <li><i class="fa fa-envelope" /> <span t-field="res_company.email" /></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+
+        <div class="row" id="belowfooter">
+
+            <div class="col-lg-12">
+                © DRX 2022
+            </div>
+
+        </div>
+
+    </xpath>
+</data>
