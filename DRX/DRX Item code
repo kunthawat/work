@@ -1,0 +1,20 @@
+<div class="bestselleritem col-lg-3">
+  <div class="container">
+    <div class="row content">
+      <div class="carousel-content">
+        <div class="itemupper">
+          <div class="itembanner"> Code for Ecommerce category in promotion categories only </div>
+          <div class="itemimage">
+            <img src="product image">
+          </div>
+        </div>
+        <div class="itemlower">
+          <div class="itemname"> Code for product name </div>
+          <div class="itemprice"> Code for product price (need to support discount price when product have discount)
+          </div>
+          <div class="itemaddtocart"> Code for add to cart</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
