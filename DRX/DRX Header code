@@ -1,0 +1,147 @@
+<header id="top" data-anchor="true" data-name="Header" class=" o_affix_enabled">
+   
+   
+//This section is Preheader section                 
+        <nav id="preheader">
+            <div class="container">
+                <div class="row">
+                  
+                    <div class="col-lg-6 d-flex">
+                        <ul id="contact" class="list-inline m-0">
+                          
+                          
+                            <li class="list-inline-item d-none d-md-inline-block">
+                                <a href="/seller">
+                                    <img src="/web/image/1074/Icon%20open-account-login%402x.png" class="img img-fluid">ขายสินค้ากับ DRX
+                                </a>
+                            </li>
+                            <li class="list-inline-item home d-inline-block d-md-none" data-oe-model="ir.ui.view" data-oe-id="2705" data-oe-field="arch" data-oe-xpath="/data/xpath/nav/div[1]/div[1]/div[1]/ul[1]/li[2]">
+                                <a href="/contactus">
+                                    <i class="fa fa-envelope fa-1x"></i>ติดต่อเรา
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 d-flex">
+                        <ul id="contact" class="list-inline m-0">
+                          
+                          
+                          // Code for Login section need to code with Odoo's way
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                    <b>
+                                        <span>DRX</span>
+                                    </b>
+                                </a>
+                                <div class="dropdown-menu js_usermenu" role="menu">
+                                    
+                                  <a href="/my/home" role="menuitem" class="dropdown-item">My Account</a>
+
+			                            <a id="o_logout" class="dropdown-item" role="menuitem" href="/web/session/logout?redirect=/">Logout</a>
+                                </div>
+                            </li>
+                            //End of section
+                            
+                            
+                            
+                            <li class="list-inline-item d-none d-md-inline-block">
+                                <a href="tel:0930515454">
+                                    <img src="/web/image/1075/Icon%20ionic-ios-call%402x.png" class="img img-fluid">โทรหา DRX
+                                </a>
+                            </li>
+
+
+                           
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        
+        
+        
+//This section is Main menu section      
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container">
+                  //Use original Odoo code
+                    <a href="/" class="navbar-brand logo">
+                      <span data-oe-model="website" data-oe-id="1" data-oe-field="logo" data-oe-type="image" data-oe-expression="website.logo" role="img" data-oe-field-xpath="/data/xpath/a/span[1]" aria-label="Logo of DRX Corporation" title="DRX Corporation"><img src="/web/image/website/1/logo/DRX%20Corporation?unique=4908831" class="img img-fluid" alt="DRX Corporation"></span>
+                    </a>
+                  //End of section
+
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#top_menu_collapse" data-oe-model="ir.ui.view" data-oe-id="537" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/div[1]/button[1]">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    
+                  <div class="collapse navbar-collapse" id="top_menu_collapse" aria-expanded="false">
+                  
+                  
+                  <ul class="nav navbar-nav ml-auto text-right" id="top_menu">
+                    
+                            
+                  //Search section if the code below doesn't work please fix it
+                  <div class="searchbar" data-oe-model="ir.ui.view" data-oe-id="2807" data-oe-field="arch" data-oe-xpath="/data/xpath[2]/nav/div[1]/div[2]/div[1]/div[1]">
+                        <form method="get" class="o_wsale_products_searchbar_form s_wsale_products_searchbar_input mb-3" action="/shop">
+                            <div role="search" class="input-group">
+                                <input type="text" name="search" class="search-query form-control oe_search_box" placeholder="" data-limit="5" data-display-description="true" data-display-price="true" data-display-image="true" autocomplete="off"/>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-primary oe_search_button" aria-label="Search" title="Search">
+                                        <i class="fa fa-search"/>
+                                    </button>
+                                </div>
+                            </div>
+                            <input name="order" type="hidden" class="o_wsale_search_order_by" value=""/>
+                        </form>
+                    </div>
+                   //End of section
+
+            
+                  //Wishlist section need to code with Odoo's way
+                  <li class="nav-item o_wsale_my_wish" style="display:none;">
+                    <a href="/shop/wishlist" class="nav-link">
+                        <i class="fa fa-heart" data-oe-model="ir.ui.view" data-oe-id="2715" data-oe-field="arch" data-oe-xpath="/data/xpath/t/li[1]/a[1]/i[1]"></i>
+                        Wishlist <sup class="my_wish_quantity o_animate_blink badge badge-primary">0</sup>
+                    </a>
+                  </li>
+                  //End of section
+
+                  
+                  //Cart section need to code with Odoo's way
+                  <li class="nav-item o_wsale_my_cart d-none">
+                    <a href="/shop/cart" class="nav-link" data-original-title="" title="">
+                      <i class="fa fa-shopping-cart" data-oe-model="ir.ui.view" data-oe-id="2703" data-oe-field="arch" data-oe-xpath="/data/xpath/li[2]/a[1]/i[1]"></i>
+                          My Cart <sup class="my_cart_quantity badge badge-primary" data-order-id=""></sup>
+                    </a>
+                  </li>
+                  //End of section
+
+                  
+                  //Language switch section need to code with Odoo's way
+                  <ul id="language" class="list-inline m-0 js_language_selector d-none d-md-block">
+                            <li class="list-inline-item">
+                                <div class="btn-group">
+                                    <button data-toggle="dropdown" type="button" class="dropdown-toggle" data-oe-model="ir.ui.view" data-oe-id="2705" data-oe-field="arch" data-oe-xpath="/data/xpath/nav/div[1]/div[1]/div[1]/ul[2]/li[1]/div[1]/button[1]">
+                                        <i class="fa fa-globe fa-1x"></i>
+                                    </button>
+                                    <div role="menu" class="dropdown-menu dropdown-menu-right js_language_selector">
+                                        
+                                            <a class="js_change_lang dropdown-item active" href="/en/" data-url_code="en_US">
+                                                English (US)
+                                            </a>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                    </ul>
+                    //End of section
+
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+ </header>
