@@ -1,0 +1,17 @@
+<div class="language_switcher">
+    <div class="language-switcher-container">
+        <div class="current-language">
+            <a href="#" class="disabled-language">
+                <img class="flag-image"
+                    src="https://www.thaikk.com.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/vi.png"> </a>
+        </div>
+        <div class="language">
+            <a href="#" class="disabled-language">
+                <img class="flag-image"
+                    src="https://www.thaikk.com.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/vi.png"> </a>
+            <a href="https://www.thaikk.com.vn/en/">
+                <img class="flag-image"
+                    src="https://www.thaikk.com.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_GB.png"> </a>
+        </div>
+    </div>
+</div>
