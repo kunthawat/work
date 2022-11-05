@@ -1,37 +1,6 @@
-<<<<<<< HEAD
-//DRX Footer code
-#footer {
-    background-color: #035693;
-    color: white;
-}
-=======
 //Main Logo
 .drx_logos .card {
    border: none;
-}
->>>>>>> 25e1fafe8fb3b9c3d85e667af7f5d19fe9e83b93
-
-<<<<<<< HEAD
-#footer a {
-    color: white;
-}
-
-#belowfooter {
-    background-color: #FF6400;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-weight: 500;
-}
-
-#uppeerfooter h5 {
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-#uppeerfooter #connect .addresscompany {
-    padding-bottom: 20px;
-    padding-top: 40px;
 }
 
 #address {
@@ -238,5 +207,3 @@ footer a:hover {
     text-decoration: none;
     font-weight: 600;
 }
-
->>>>>>> 25e1fafe8fb3b9c3d85e667af7f5d19fe9e83b93
