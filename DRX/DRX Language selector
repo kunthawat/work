@@ -3,15 +3,15 @@
         <div class="current-language">
             <a href="#" class="disabled-language">
                 <img class="flag-image"
-                    src="https://www.thaikk.com.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/vi.png"> </a>
+                    src="flag link"> </a>
         </div>
         <div class="language">
             <a href="#" class="disabled-language">
                 <img class="flag-image"
-                    src="https://www.thaikk.com.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/vi.png"> </a>
-            <a href="https://www.thaikk.com.vn/en/">
+                    src="flag link"> </a>
+            <a href="language link">
                 <img class="flag-image"
-                    src="https://www.thaikk.com.vn/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_GB.png"> </a>
+                    src="flag link"> </a>
         </div>
     </div>
 </div>
